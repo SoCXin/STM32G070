@@ -1,0 +1,43 @@
+{
+    "type":"MCU",
+    "name":"STM32G070",
+    "title": "ST STM32G070 MCU",
+    "description":"ST mainstream MCU",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-M0",
+        "Fmax":64,
+        "DMIPS": 59,
+        "CoreMark": 142
+    },
+    "RAM": {
+        "SRAM": 36
+    },
+    "ROM": {
+        "FLASH": 128
+    },
+    "manufacturer": {
+        "vendor":"ST",
+        "homepage":"https://www.st.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SoCXin/STM32G070.git"
+    },
+    "version":"1.0.0",
+    "series":["STM32G070"],
+    "package":["LQFP64","LQFP32","LQFP48"],
+    "peripheral": ["ADC","USART","SPI","I2C","I2S"],
+    "temp": [-40,85],
+    "volt": [1.7,3.6],
+    "ESD": {
+        "HBM": 4000,
+        "CDM": 500
+    },
+    "keywords": [
+        "Cortex-M0",
+        "ST",
+        "ADC","I2C","SPI","RTC","USART","I2S"
+    ]
+}
+
