@@ -1,0 +1,2 @@
+# STM32F042
+L1：cortex M0 48MHz (STM32F042)
